@@ -3,7 +3,6 @@ package com.csis3275.model;
 import java.util.Random;
 
 public class Customer_ika_09 extends Person_ika_09 {
-
 	// Constructor
 	public Customer_ika_09(String name) {
 		super(name);
