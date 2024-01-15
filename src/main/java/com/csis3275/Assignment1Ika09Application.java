@@ -1,4 +1,4 @@
-package com.csis3275.assignment1ika09;
+package com.csis3275;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
