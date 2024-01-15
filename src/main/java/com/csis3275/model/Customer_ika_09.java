@@ -1,8 +1,9 @@
 package com.csis3275.model;
 
 import java.util.Random;
+import java.util.UUID;
 
-public class Customer_ika_09 extends Person_ika_09 {
+public class Customer_ika_09 extends Person_ika_09 implements GenerateTicket_ika_09 {
 	// Constructor
 	public Customer_ika_09(String name) {
 		super(name);
@@ -25,6 +26,15 @@ public class Customer_ika_09 extends Person_ika_09 {
 		double purchaseAmount = random.nextDouble(200, 900);
 		double credit = purchaseAmount * CREDIT_PERCENTAGE;
 		return String.format("For $%.2f purchase, you get $%.2f store credits.", purchaseAmount, credit);
+	}
+
+	// Overridden Method
+	@Override
+	public String generateTicket() {
+		// TODO Auto-generated method stub
+		UUID uuid = UUID.randomUUID();
+		return "CUST-" + uuid.toString();
+
 	}
 
 }
