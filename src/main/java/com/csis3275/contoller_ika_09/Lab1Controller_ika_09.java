@@ -24,6 +24,6 @@ public class Lab1Controller_ika_09 {
 		model.addAttribute("customer_ticket",cust1.generateTicket());
 		model.addAttribute("employee_ticket",emp1.generateTicket());
         
-		return "AssignmentView";
+		return "AssignmentView_ika_09";
 	}
 }
