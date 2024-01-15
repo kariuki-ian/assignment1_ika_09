@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Assignment 1</title>
+</head>
+<body>
+<h1>Admin Dashboard</h1>
+<div>
+	<h2><u>Employee Information</u> </h2>
+	<h3 th:text="'Employee name: ' +${employee.name}"></h3>
+	<p th:text="'Employee ID: ' +${employee.employeeID}"></p>
+	<p th:text="'Monthly Salary: ' +'$'+${employee.monthlySalary}"></p>
+	<p th:text="'Employee Ticket number: ' +${employee_ticket}"></p>
+</div>
+<div>
+	<h2><u>Customer Assigned Information</u> </h2>
+	<h3 th:text="'Customer name: ' +${customer.name}"></h3>
+	<p th:text="'Customer ID: ' +${customer.customerID}"></p>
+	<p th:text="'Store Credit: ' +'$'+${customer.storeCredit}"></p>
+	<p th:text="'Customer Ticket number: ' +${customer_ticket}"></p>
+</div>
+</body>
+</html>
