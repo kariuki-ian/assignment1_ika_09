@@ -42,4 +42,34 @@ public class Employee_ika_09 extends Person_ika_09 implements GenerateTicket_ika
 		return "EMP-" + uuid.toString();
 	}
 
+	/**
+	 * @return the employeeID
+	 */
+	public String getEmployeeID() {
+		return employeeID;
+	}
+
+	/**
+	 * @param employeeID the employeeID to set
+	 */
+	public void setEmployeeID(String employeeID) {
+		this.employeeID = employeeID;
+	}
+
+	/**
+	 * @return the monthlySalary
+	 */
+	public double getMonthlySalary() {
+		return monthlySalary;
+	}
+
+	/**
+	 * @param monthlySalary the monthlySalary to set
+	 */
+	public void setMonthlySalary(double monthlySalary) {
+		this.monthlySalary = monthlySalary;
+	}
+	
+	
+
 }

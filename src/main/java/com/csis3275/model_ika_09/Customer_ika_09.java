@@ -40,4 +40,32 @@ public class Customer_ika_09 extends Person_ika_09 implements GenerateTicket_ika
 
 	}
 
+	/**
+	 * @return the customerID
+	 */
+	public String getCustomerID() {
+		return customerID;
+	}
+
+	/**
+	 * @param customerID the customerID to set
+	 */
+	public void setCustomerID(String customerID) {
+		this.customerID = customerID;
+	}
+
+	/**
+	 * @return the storeCredit
+	 */
+	public double getStoreCredit() {
+		return storeCredit;
+	}
+
+	/**
+	 * @param storeCredit the storeCredit to set
+	 */
+	public void setStoreCredit(double storeCredit) {
+		this.storeCredit = storeCredit;
+	}
+
 }

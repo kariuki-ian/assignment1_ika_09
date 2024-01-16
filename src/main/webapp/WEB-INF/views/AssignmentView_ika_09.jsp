@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +17,7 @@
 	<p>Employee Ticket number: ${employee_ticket} </p>
 </div>
 <div>
-	<h2><u>Customer Assigned Information</u> </h2>
+	<h2><u>Assigned Customer Information</u> </h2>
 	<h3>Customer name: ${customer.name}</h3>
 	<p >Customer ID: ${customer.customerID}</p>
 	<p >Store Credit: $ ${customer.storeCredit}</p>
